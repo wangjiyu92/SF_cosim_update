@@ -1,0 +1,26 @@
+name: salmon
+dependencies:
+ - python
+ - boost
+ - zeromq
+ - cmake
+ - xlrd
+ - lxml
+ - git
+ - pandas
+ - numpy
+ - helics
+ - tzlocal
+ - openpyxl
+ - pip
+ - pip:
+    - OpenDSSDirect.py[extras]
+    - subprocess32
+    - helics-apps
+    - --editable=git+https://github.com/GMLC-TDC/helics-cli.git@main#egg=helics-cli
+    - --editable=git+https://github.nrel.gov/SETO-foresee/OpenDSS-wrapper#egg=OpenDSS-wrapper
+    # - --editable=git+https://github.nrel.gov/Customer-Modeling/Dwelling_Object_Oriented_Model__DOOM.git@develop#egg=dwelling_model
+    - --editable=git+https://github.nrel.gov/Customer-Modeling/ochre.git@main#egg=ochre
+channels:
+  - defaults
+  - gmlc-tdc

@@ -1,0 +1,41 @@
+{
+    "federates":[
+        {
+            "directory":"/projects/salmon/pmunanka_test/Salmon_cosim/agents",
+            "exec":"python Feeder.py 0.0.0.0:4545",
+            "host":"localhost",
+            "name":"feeder"
+        },
+        {
+            "directory":"/projects/salmon/pmunanka_test/Salmon_cosim/agents",
+            "exec":"python House.py n0 0.0.0.0:4545",
+            "host":"localhost",
+            "name":"house_n0"
+        },
+        {
+            "directory":"/projects/salmon/pmunanka_test/Salmon_cosim/agents",
+            "exec":"python Hems.py n0 0.0.0.0:4545",
+            "host":"localhost",
+            "name":"hems_n0"
+        },
+        {
+            "directory":"/projects/salmon/pmunanka_test/Salmon_cosim/agents",
+            "exec":"python House.py n1 0.0.0.0:4545",
+            "host":"localhost",
+            "name":"house_n1"
+        },
+        {
+            "directory":"/projects/salmon/pmunanka_test/Salmon_cosim/agents",
+            "exec":"python Hems.py n1 0.0.0.0:4545",
+            "host":"localhost",
+            "name":"hems_n1"
+        },
+        {
+            "directory":"/projects/salmon/pmunanka_test/Salmon_cosim/agents",
+            "exec":"helics_broker -f 5",
+            "host":"localhost",
+            "name":"broker"
+        }
+    ],
+    "name":"foresee_test4"
+}

@@ -1,0 +1,222 @@
+/projects/salmon/pmunanka_test/salmon_test/lib/python3.9/site-packages/helics/capi.py:3995: UserWarning: This function is deprecated. Use `helicsFederateDisconnect` instead.
+  warnings.warn("This function is deprecated. Use `helicsFederateDisconnect` instead.")
+SCENARIO NAME: 
+MASTER DSS FILE: /projects/salmon/pmunanka_test/Salmon_cosim/inputs/opendss/Model_SALMON_Cosim/Master_Cosim.dss
+Weather file: /projects/salmon/pmunanka_test/Salmon_cosim/inputs/weather/G4100510.epw
+MS file: /projects/salmon/pmunanka_test/Salmon_cosim/inputs/MS/Main_spreadsheet_SALMON_test_scaling.xlsx
+['n1', 'n2', 'n3', 'n4', 'n5', 'n6', 'n7', 'n8', 'n9', 'n10', 'n11', 'n12', 'n13', 'n14', 'n15', 'n16', 'n17', 'n18', 'n19', 'n20', 'n21', 'n22', 'n23', 'n24', 'n25', 'n26', 'n27', 'n28', 'n29', 'n30', 'n31', 'n32', 'n33', 'n34', 'n35', 'n36', 'n37', 'n38', 'n39', 'n40', 'n41', 'n42', 'n43', 'n44', 'n45', 'n46', 'n47', 'n48', 'n49', 'n50']
+_feeder loads
+{'n1': 'OID_954127-L_A', 'n2': 'OID_954128-L_A', 'n3': 'OID_954129-L_A', 'n4': 'OID_954130-L_A', 'n5': 'OID_954165-L_A', 'n6': 'OID_954166-L_A', 'n7': 'OID_1269265-L_A', 'n8': 'OID_1269265-L_B', 'n9': 'OID_1269265-L_C', 'n10': 'OID_955090-L_A', 'n11': 'OID_955091-L_A', 'n12': 'OID_955898-L_A', 'n13': 'OID_955900-L_A', 'n14': 'OID_1049869-L_A', 'n15': 'OID_955093-L_A', 'n16': 'OID_955095-L_A', 'n17': 'OID_955211-L_A', 'n18': 'OID_955899-L_A', 'n19': 'OID_955902-L_A', 'n20': 'OID_955903-L_A', 'n21': 'OID_955904-L_A', 'n22': 'OID_1034038-L_A', 'n23': 'OID_1034039-L_A', 'n24': 'OID_1034040-L_A', 'n25': 'OID_1034052-L_A', 'n26': 'OID_1034057-L_A', 'n27': 'OID_1034072-L_A', 'n28': 'OID_1047318-L_A', 'n29': 'OID_955092-L_A', 'n30': 'OID_955094-L_A', 'n31': 'OID_955096-L_A', 'n32': 'OID_955910-L_A', 'n33': 'OID_956753-L_A', 'n34': 'OID_956755-L_A', 'n35': 'OID_954424-L_C', 'n36': 'OID_954432-L_C', 'n37': 'OID_955653-L_C', 'n38': 'OID_957111-L_C', 'n39': 'OID_957112-L_C', 'n40': 'OID_954259-L_A', 'n41': 'OID_954431-L_A', 'n42': 'OID_954834-L_A', 'n43': 'OID_957113-L_A', 'n44': 'OID_957114-L_A', 'n45': 'OID_957115-L_A', 'n46': 'OID_957116-L_A', 'n47': 'OID_957584-L_A', 'n48': 'OID_1040679-L_C', 'n49': 'OID_2323238-L_C', 'n50': 'OID_954380-L_C'}
+_self.houses
+{'n1': 'OID_954127-L_A', 'n2': 'OID_954128-L_A', 'n3': 'OID_954129-L_A', 'n4': 'OID_954130-L_A', 'n5': 'OID_954165-L_A', 'n6': 'OID_954166-L_A', 'n7': 'OID_1269265-L_A', 'n8': 'OID_1269265-L_B', 'n9': 'OID_1269265-L_C', 'n10': 'OID_955090-L_A', 'n11': 'OID_955091-L_A', 'n12': 'OID_955898-L_A', 'n13': 'OID_955900-L_A', 'n14': 'OID_1049869-L_A', 'n15': 'OID_955093-L_A', 'n16': 'OID_955095-L_A', 'n17': 'OID_955211-L_A', 'n18': 'OID_955899-L_A', 'n19': 'OID_955902-L_A', 'n20': 'OID_955903-L_A', 'n21': 'OID_955904-L_A', 'n22': 'OID_1034038-L_A', 'n23': 'OID_1034039-L_A', 'n24': 'OID_1034040-L_A', 'n25': 'OID_1034052-L_A', 'n26': 'OID_1034057-L_A', 'n27': 'OID_1034072-L_A', 'n28': 'OID_1047318-L_A', 'n29': 'OID_955092-L_A', 'n30': 'OID_955094-L_A', 'n31': 'OID_955096-L_A', 'n32': 'OID_955910-L_A', 'n33': 'OID_956753-L_A', 'n34': 'OID_956755-L_A', 'n35': 'OID_954424-L_C', 'n36': 'OID_954432-L_C', 'n37': 'OID_955653-L_C', 'n38': 'OID_957111-L_C', 'n39': 'OID_957112-L_C', 'n40': 'OID_954259-L_A', 'n41': 'OID_954431-L_A', 'n42': 'OID_954834-L_A', 'n43': 'OID_957113-L_A', 'n44': 'OID_957114-L_A', 'n45': 'OID_957115-L_A', 'n46': 'OID_957116-L_A', 'n47': 'OID_957584-L_A', 'n48': 'OID_1040679-L_C', 'n49': 'OID_2323238-L_C', 'n50': 'OID_954380-L_C'}
+2023-05-16 06:31:44.110943 - Feeder at 2021-01-02 00:00:00: /projects/salmon/pmunanka_test/Salmon_cosim/outputs/Feeder
+2023-05-16 06:31:44.110982 - Feeder at 2021-01-02 00:00:00: /projects/salmon/pmunanka_test/Salmon_cosim/outputs/Feeder
+2023-05-16 06:31:44.112355 - Feeder at 2021-01-02 00:00:00: Initializing Agent...
+DSS Compiling...
+DSS Compiled Circuit: full_network
+Status = SOLVED
+Solution Mode = Snap
+Number = 100
+Load Mult = 1.000
+Devices = 6964
+Buses = 2066
+Nodes = 3420
+Control Mode =Static
+Total Iterations = 2
+Control Iterations = 1
+Max Sol Iter = 2
+ 
+ - Circuit Summary -
+ 
+Year = 0 
+Hour = 0 
+Max pu. voltage = 1.0334 
+Min pu. voltage = 0.89269 
+Total Active Power:   40.2224 MW
+Total Reactive Power: 11.1479 Mvar
+Total Active Losses:   1.29312 MW, (3.215 %)
+Total Reactive Losses: 4.34218 Mvar
+Frequency = 60 Hz
+Mode = Snap
+Control Mode = Static
+Load Model = PowerFlow
+check A
+2023-05-16 06:31:44.846540 - Feeder at 2021-01-02 00:00:00: Time to initialize: 0:00:00.734183
+2023-05-16 06:31:44.846580 - Feeder at 2021-01-02 00:00:00: Creating Federate (Helics version: 3.1.2 (2022-01-25))
+_DOOM subscriptions
+{'n1': 'OID_954127-L_A', 'n2': 'OID_954128-L_A', 'n3': 'OID_954129-L_A', 'n4': 'OID_954130-L_A', 'n5': 'OID_954165-L_A', 'n6': 'OID_954166-L_A', 'n7': 'OID_1269265-L_A', 'n8': 'OID_1269265-L_B', 'n9': 'OID_1269265-L_C', 'n10': 'OID_955090-L_A', 'n11': 'OID_955091-L_A', 'n12': 'OID_955898-L_A', 'n13': 'OID_955900-L_A', 'n14': 'OID_1049869-L_A', 'n15': 'OID_955093-L_A', 'n16': 'OID_955095-L_A', 'n17': 'OID_955211-L_A', 'n18': 'OID_955899-L_A', 'n19': 'OID_955902-L_A', 'n20': 'OID_955903-L_A', 'n21': 'OID_955904-L_A', 'n22': 'OID_1034038-L_A', 'n23': 'OID_1034039-L_A', 'n24': 'OID_1034040-L_A', 'n25': 'OID_1034052-L_A', 'n26': 'OID_1034057-L_A', 'n27': 'OID_1034072-L_A', 'n28': 'OID_1047318-L_A', 'n29': 'OID_955092-L_A', 'n30': 'OID_955094-L_A', 'n31': 'OID_955096-L_A', 'n32': 'OID_955910-L_A', 'n33': 'OID_956753-L_A', 'n34': 'OID_956755-L_A', 'n35': 'OID_954424-L_C', 'n36': 'OID_954432-L_C', 'n37': 'OID_955653-L_C', 'n38': 'OID_957111-L_C', 'n39': 'OID_957112-L_C', 'n40': 'OID_954259-L_A', 'n41': 'OID_954431-L_A', 'n42': 'OID_954834-L_A', 'n43': 'OID_957113-L_A', 'n44': 'OID_957114-L_A', 'n45': 'OID_957115-L_A', 'n46': 'OID_957116-L_A', 'n47': 'OID_957584-L_A', 'n48': 'OID_1040679-L_C', 'n49': 'OID_2323238-L_C', 'n50': 'OID_954380-L_C'}
+2023-05-16 06:32:16.474317 - Feeder at 2021-01-02 00:00:00: Federate initialized. Waiting for other federates...
+2023-05-16 06:32:16.482082 - Feeder at 2021-01-02 00:00:00: Federate entering execution mode
+2023-05-16 06:32:16.482103 - Feeder at 2021-01-02 00:00:00: Beginning Co-simulation
+2023-05-16 06:32:16.540311 - Feeder at 2021-01-02 00:00:00: Running action: Save Results
+2023-05-16 06:32:16.736728 - Feeder at 2021-01-02 01:00:00: Running action: Save Results
+2023-05-16 06:32:16.947415 - Feeder at 2021-01-02 02:00:00: Running action: Save Results
+2023-05-16 06:32:17.160348 - Feeder at 2021-01-02 03:00:00: Running action: Save Results
+2023-05-16 06:32:17.371742 - Feeder at 2021-01-02 04:00:00: Running action: Save Results
+2023-05-16 06:32:17.597913 - Feeder at 2021-01-02 05:00:00: Running action: Save Results
+2023-05-16 06:32:17.811041 - Feeder at 2021-01-02 06:00:00: Running action: Save Results
+2023-05-16 06:32:18.017689 - Feeder at 2021-01-02 07:00:00: Running action: Save Results
+2023-05-16 06:32:18.244972 - Feeder at 2021-01-02 08:00:00: Running action: Save Results
+2023-05-16 06:32:18.461653 - Feeder at 2021-01-02 09:00:00: Running action: Save Results
+2023-05-16 06:32:18.676836 - Feeder at 2021-01-02 10:00:00: Running action: Save Results
+2023-05-16 06:32:18.897317 - Feeder at 2021-01-02 11:00:00: Running action: Save Results
+2023-05-16 06:32:19.105832 - Feeder at 2021-01-02 12:00:00: Running action: Save Results
+2023-05-16 06:32:19.319857 - Feeder at 2021-01-02 13:00:00: Running action: Save Results
+2023-05-16 06:32:19.525704 - Feeder at 2021-01-02 14:00:00: Running action: Save Results
+2023-05-16 06:32:19.743943 - Feeder at 2021-01-02 15:00:00: Running action: Save Results
+2023-05-16 06:32:19.960654 - Feeder at 2021-01-02 16:00:00: Running action: Save Results
+2023-05-16 06:32:20.183350 - Feeder at 2021-01-02 17:00:00: Running action: Save Results
+2023-05-16 06:32:20.395591 - Feeder at 2021-01-02 18:00:00: Running action: Save Results
+2023-05-16 06:32:20.611357 - Feeder at 2021-01-02 19:00:00: Running action: Save Results
+2023-05-16 06:32:20.822902 - Feeder at 2021-01-02 20:00:00: Running action: Save Results
+2023-05-16 06:32:21.036384 - Feeder at 2021-01-02 21:00:00: Running action: Save Results
+2023-05-16 06:32:21.246038 - Feeder at 2021-01-02 22:00:00: Running action: Save Results
+2023-05-16 06:32:21.459120 - Feeder at 2021-01-02 23:00:00: Running action: Save Results
+2023-05-16 06:32:21.674488 - Feeder at 2021-01-03 00:00:00: Running action: Save Results
+2023-05-16 06:32:21.894706 - Feeder at 2021-01-03 01:00:00: Running action: Save Results
+2023-05-16 06:32:22.109071 - Feeder at 2021-01-03 02:00:00: Running action: Save Results
+2023-05-16 06:32:22.326318 - Feeder at 2021-01-03 03:00:00: Running action: Save Results
+2023-05-16 06:32:22.542151 - Feeder at 2021-01-03 04:00:00: Running action: Save Results
+2023-05-16 06:32:22.759366 - Feeder at 2021-01-03 05:00:00: Running action: Save Results
+2023-05-16 06:32:22.978289 - Feeder at 2021-01-03 06:00:00: Running action: Save Results
+2023-05-16 06:32:23.199449 - Feeder at 2021-01-03 07:00:00: Running action: Save Results
+2023-05-16 06:32:23.419408 - Feeder at 2021-01-03 08:00:00: Running action: Save Results
+2023-05-16 06:32:23.632162 - Feeder at 2021-01-03 09:00:00: Running action: Save Results
+2023-05-16 06:32:23.847966 - Feeder at 2021-01-03 10:00:00: Running action: Save Results
+2023-05-16 06:32:24.068570 - Feeder at 2021-01-03 11:00:00: Running action: Save Results
+2023-05-16 06:32:24.273458 - Feeder at 2021-01-03 12:00:00: Running action: Save Results
+2023-05-16 06:32:24.499737 - Feeder at 2021-01-03 13:00:00: Running action: Save Results
+2023-05-16 06:32:24.700873 - Feeder at 2021-01-03 14:00:00: Running action: Save Results
+2023-05-16 06:32:24.914894 - Feeder at 2021-01-03 15:00:00: Running action: Save Results
+2023-05-16 06:32:25.132315 - Feeder at 2021-01-03 16:00:00: Running action: Save Results
+2023-05-16 06:32:25.352843 - Feeder at 2021-01-03 17:00:00: Running action: Save Results
+2023-05-16 06:32:25.561504 - Feeder at 2021-01-03 18:00:00: Running action: Save Results
+2023-05-16 06:32:25.775826 - Feeder at 2021-01-03 19:00:00: Running action: Save Results
+2023-05-16 06:32:25.993276 - Feeder at 2021-01-03 20:00:00: Running action: Save Results
+2023-05-16 06:32:26.209428 - Feeder at 2021-01-03 21:00:00: Running action: Save Results
+2023-05-16 06:32:26.413823 - Feeder at 2021-01-03 22:00:00: Running action: Save Results
+2023-05-16 06:32:26.622742 - Feeder at 2021-01-03 23:00:00: Running action: Save Results
+2023-05-16 06:32:26.839885 - Feeder at 2021-01-04 00:00:00: Running action: Save Results
+2023-05-16 06:32:27.056026 - Feeder at 2021-01-04 01:00:00: Running action: Save Results
+2023-05-16 06:32:27.264721 - Feeder at 2021-01-04 02:00:00: Running action: Save Results
+2023-05-16 06:32:27.477073 - Feeder at 2021-01-04 03:00:00: Running action: Save Results
+2023-05-16 06:32:27.687398 - Feeder at 2021-01-04 04:00:00: Running action: Save Results
+2023-05-16 06:32:27.897954 - Feeder at 2021-01-04 05:00:00: Running action: Save Results
+2023-05-16 06:32:28.115154 - Feeder at 2021-01-04 06:00:00: Running action: Save Results
+2023-05-16 06:32:28.329591 - Feeder at 2021-01-04 07:00:00: Running action: Save Results
+2023-05-16 06:32:28.539631 - Feeder at 2021-01-04 08:00:00: Running action: Save Results
+2023-05-16 06:32:28.749374 - Feeder at 2021-01-04 09:00:00: Running action: Save Results
+2023-05-16 06:32:28.964026 - Feeder at 2021-01-04 10:00:00: Running action: Save Results
+2023-05-16 06:32:29.178058 - Feeder at 2021-01-04 11:00:00: Running action: Save Results
+2023-05-16 06:32:29.397619 - Feeder at 2021-01-04 12:00:00: Running action: Save Results
+2023-05-16 06:32:29.618682 - Feeder at 2021-01-04 13:00:00: Running action: Save Results
+2023-05-16 06:32:29.835589 - Feeder at 2021-01-04 14:00:00: Running action: Save Results
+2023-05-16 06:32:30.053170 - Feeder at 2021-01-04 15:00:00: Running action: Save Results
+2023-05-16 06:32:30.271110 - Feeder at 2021-01-04 16:00:00: Running action: Save Results
+2023-05-16 06:32:30.489040 - Feeder at 2021-01-04 17:00:00: Running action: Save Results
+2023-05-16 06:32:30.703033 - Feeder at 2021-01-04 18:00:00: Running action: Save Results
+2023-05-16 06:32:30.923460 - Feeder at 2021-01-04 19:00:00: Running action: Save Results
+2023-05-16 06:32:31.132484 - Feeder at 2021-01-04 20:00:00: Running action: Save Results
+2023-05-16 06:32:31.352072 - Feeder at 2021-01-04 21:00:00: Running action: Save Results
+2023-05-16 06:32:31.558409 - Feeder at 2021-01-04 22:00:00: Running action: Save Results
+2023-05-16 06:32:31.780439 - Feeder at 2021-01-04 23:00:00: Running action: Save Results
+2023-05-16 06:32:31.994835 - Feeder at 2021-01-05 00:00:00: Running action: Save Results
+2023-05-16 06:32:32.199389 - Feeder at 2021-01-05 01:00:00: Running action: Save Results
+2023-05-16 06:32:32.406891 - Feeder at 2021-01-05 02:00:00: Running action: Save Results
+2023-05-16 06:32:32.621222 - Feeder at 2021-01-05 03:00:00: Running action: Save Results
+2023-05-16 06:32:32.835501 - Feeder at 2021-01-05 04:00:00: Running action: Save Results
+2023-05-16 06:32:33.041360 - Feeder at 2021-01-05 05:00:00: Running action: Save Results
+2023-05-16 06:32:33.257817 - Feeder at 2021-01-05 06:00:00: Running action: Save Results
+2023-05-16 06:32:33.473938 - Feeder at 2021-01-05 07:00:00: Running action: Save Results
+2023-05-16 06:32:33.686963 - Feeder at 2021-01-05 08:00:00: Running action: Save Results
+2023-05-16 06:32:33.904607 - Feeder at 2021-01-05 09:00:00: Running action: Save Results
+2023-05-16 06:32:34.113869 - Feeder at 2021-01-05 10:00:00: Running action: Save Results
+2023-05-16 06:32:34.335562 - Feeder at 2021-01-05 11:00:00: Running action: Save Results
+2023-05-16 06:32:34.556785 - Feeder at 2021-01-05 12:00:00: Running action: Save Results
+2023-05-16 06:32:34.783030 - Feeder at 2021-01-05 13:00:00: Running action: Save Results
+2023-05-16 06:32:34.991323 - Feeder at 2021-01-05 14:00:00: Running action: Save Results
+2023-05-16 06:32:35.211860 - Feeder at 2021-01-05 15:00:00: Running action: Save Results
+2023-05-16 06:32:35.429784 - Feeder at 2021-01-05 16:00:00: Running action: Save Results
+2023-05-16 06:32:35.644260 - Feeder at 2021-01-05 17:00:00: Running action: Save Results
+2023-05-16 06:32:35.858808 - Feeder at 2021-01-05 18:00:00: Running action: Save Results
+2023-05-16 06:32:36.071484 - Feeder at 2021-01-05 19:00:00: Running action: Save Results
+2023-05-16 06:32:36.284102 - Feeder at 2021-01-05 20:00:00: Running action: Save Results
+2023-05-16 06:32:36.501945 - Feeder at 2021-01-05 21:00:00: Running action: Save Results
+2023-05-16 06:32:36.724264 - Feeder at 2021-01-05 22:00:00: Running action: Save Results
+2023-05-16 06:32:36.934458 - Feeder at 2021-01-05 23:00:00: Running action: Save Results
+2023-05-16 06:32:37.151296 - Feeder at 2021-01-06 00:00:00: Running action: Save Results
+2023-05-16 06:32:37.363101 - Feeder at 2021-01-06 01:00:00: Running action: Save Results
+2023-05-16 06:32:37.574034 - Feeder at 2021-01-06 02:00:00: Running action: Save Results
+2023-05-16 06:32:37.792593 - Feeder at 2021-01-06 03:00:00: Running action: Save Results
+2023-05-16 06:32:38.007053 - Feeder at 2021-01-06 04:00:00: Running action: Save Results
+2023-05-16 06:32:38.218305 - Feeder at 2021-01-06 05:00:00: Running action: Save Results
+2023-05-16 06:32:38.431830 - Feeder at 2021-01-06 06:00:00: Running action: Save Results
+2023-05-16 06:32:38.637323 - Feeder at 2021-01-06 07:00:00: Running action: Save Results
+2023-05-16 06:32:38.849502 - Feeder at 2021-01-06 08:00:00: Running action: Save Results
+2023-05-16 06:32:39.055678 - Feeder at 2021-01-06 09:00:00: Running action: Save Results
+2023-05-16 06:32:39.275911 - Feeder at 2021-01-06 10:00:00: Running action: Save Results
+2023-05-16 06:32:39.482606 - Feeder at 2021-01-06 11:00:00: Running action: Save Results
+2023-05-16 06:32:39.708611 - Feeder at 2021-01-06 12:00:00: Running action: Save Results
+2023-05-16 06:32:39.928408 - Feeder at 2021-01-06 13:00:00: Running action: Save Results
+2023-05-16 06:32:40.150156 - Feeder at 2021-01-06 14:00:00: Running action: Save Results
+2023-05-16 06:32:40.370859 - Feeder at 2021-01-06 15:00:00: Running action: Save Results
+2023-05-16 06:32:40.579167 - Feeder at 2021-01-06 16:00:00: Running action: Save Results
+2023-05-16 06:32:40.794358 - Feeder at 2021-01-06 17:00:00: Running action: Save Results
+2023-05-16 06:32:41.004896 - Feeder at 2021-01-06 18:00:00: Running action: Save Results
+2023-05-16 06:32:41.214968 - Feeder at 2021-01-06 19:00:00: Running action: Save Results
+2023-05-16 06:32:41.436425 - Feeder at 2021-01-06 20:00:00: Running action: Save Results
+2023-05-16 06:32:41.647985 - Feeder at 2021-01-06 21:00:00: Running action: Save Results
+2023-05-16 06:32:41.861187 - Feeder at 2021-01-06 22:00:00: Running action: Save Results
+2023-05-16 06:32:42.082018 - Feeder at 2021-01-06 23:00:00: Running action: Save Results
+2023-05-16 06:32:42.296812 - Feeder at 2021-01-07 00:00:00: Running action: Save Results
+2023-05-16 06:32:42.510997 - Feeder at 2021-01-07 01:00:00: Running action: Save Results
+2023-05-16 06:32:42.730444 - Feeder at 2021-01-07 02:00:00: Running action: Save Results
+2023-05-16 06:32:42.941776 - Feeder at 2021-01-07 03:00:00: Running action: Save Results
+2023-05-16 06:32:43.149085 - Feeder at 2021-01-07 04:00:00: Running action: Save Results
+2023-05-16 06:32:43.379962 - Feeder at 2021-01-07 05:00:00: Running action: Save Results
+2023-05-16 06:32:43.587266 - Feeder at 2021-01-07 06:00:00: Running action: Save Results
+2023-05-16 06:32:43.810414 - Feeder at 2021-01-07 07:00:00: Running action: Save Results
+2023-05-16 06:32:44.030958 - Feeder at 2021-01-07 08:00:00: Running action: Save Results
+2023-05-16 06:32:44.247761 - Feeder at 2021-01-07 09:00:00: Running action: Save Results
+2023-05-16 06:32:44.460995 - Feeder at 2021-01-07 10:00:00: Running action: Save Results
+2023-05-16 06:32:44.686471 - Feeder at 2021-01-07 11:00:00: Running action: Save Results
+2023-05-16 06:32:44.919046 - Feeder at 2021-01-07 12:00:00: Running action: Save Results
+2023-05-16 06:32:45.129017 - Feeder at 2021-01-07 13:00:00: Running action: Save Results
+2023-05-16 06:32:45.345750 - Feeder at 2021-01-07 14:00:00: Running action: Save Results
+2023-05-16 06:32:45.564039 - Feeder at 2021-01-07 15:00:00: Running action: Save Results
+2023-05-16 06:32:45.774600 - Feeder at 2021-01-07 16:00:00: Running action: Save Results
+2023-05-16 06:32:46.007723 - Feeder at 2021-01-07 17:00:00: Running action: Save Results
+2023-05-16 06:32:46.221507 - Feeder at 2021-01-07 18:00:00: Running action: Save Results
+2023-05-16 06:32:46.435635 - Feeder at 2021-01-07 19:00:00: Running action: Save Results
+2023-05-16 06:32:46.655633 - Feeder at 2021-01-07 20:00:00: Running action: Save Results
+2023-05-16 06:32:46.871640 - Feeder at 2021-01-07 21:00:00: Running action: Save Results
+2023-05-16 06:32:47.077524 - Feeder at 2021-01-07 22:00:00: Running action: Save Results
+2023-05-16 06:32:47.294289 - Feeder at 2021-01-07 23:00:00: Running action: Save Results
+2023-05-16 06:32:47.497582 - Feeder at 2021-01-08 00:00:00: Running action: Save Results
+2023-05-16 06:32:47.714529 - Feeder at 2021-01-08 01:00:00: Running action: Save Results
+2023-05-16 06:32:47.933724 - Feeder at 2021-01-08 02:00:00: Running action: Save Results
+2023-05-16 06:32:48.139453 - Feeder at 2021-01-08 03:00:00: Running action: Save Results
+2023-05-16 06:32:48.358633 - Feeder at 2021-01-08 04:00:00: Running action: Save Results
+2023-05-16 06:32:48.566571 - Feeder at 2021-01-08 05:00:00: Running action: Save Results
+2023-05-16 06:32:48.776796 - Feeder at 2021-01-08 06:00:00: Running action: Save Results
+2023-05-16 06:32:48.989164 - Feeder at 2021-01-08 07:00:00: Running action: Save Results
+2023-05-16 06:32:49.215219 - Feeder at 2021-01-08 08:00:00: Running action: Save Results
+2023-05-16 06:32:49.424650 - Feeder at 2021-01-08 09:00:00: Running action: Save Results
+2023-05-16 06:32:49.641019 - Feeder at 2021-01-08 10:00:00: Running action: Save Results
+2023-05-16 06:32:49.852534 - Feeder at 2021-01-08 11:00:00: Running action: Save Results
+2023-05-16 06:32:50.068910 - Feeder at 2021-01-08 12:00:00: Running action: Save Results
+2023-05-16 06:32:50.286514 - Feeder at 2021-01-08 13:00:00: Running action: Save Results
+2023-05-16 06:32:50.494979 - Feeder at 2021-01-08 14:00:00: Running action: Save Results
+2023-05-16 06:32:50.713037 - Feeder at 2021-01-08 15:00:00: Running action: Save Results
+2023-05-16 06:32:50.922230 - Feeder at 2021-01-08 16:00:00: Running action: Save Results
+2023-05-16 06:32:51.137986 - Feeder at 2021-01-08 17:00:00: Running action: Save Results
+2023-05-16 06:32:51.355940 - Feeder at 2021-01-08 18:00:00: Running action: Save Results
+2023-05-16 06:32:51.568790 - Feeder at 2021-01-08 19:00:00: Running action: Save Results
+2023-05-16 06:32:51.783830 - Feeder at 2021-01-08 20:00:00: Running action: Save Results
+2023-05-16 06:32:51.997753 - Feeder at 2021-01-08 21:00:00: Running action: Save Results
+2023-05-16 06:32:52.210766 - Feeder at 2021-01-08 22:00:00: Running action: Save Results
+2023-05-16 06:32:52.420399 - Feeder at 2021-01-08 23:00:00: Running action: Save Results
+2023-05-16 06:32:52.633433 - Feeder at 2021-01-08 23:59:00: Saving Final Results...
+2023-05-16 06:32:52.643067 - Feeder at 2021-01-08 23:59:00: Save Results ran 168 times: Avg. Time: 0.009822607142857145, Total Time: 1.6501980000000003, Max. Time: 0.011304
+2023-05-16 06:32:52.643097 - Feeder at 2021-01-08 23:59:00: Freeing federate
+2023-05-16 06:32:52.720824 - Feeder at 2021-01-08 23:59:00: Save Results ran 168 times: Avg. Time: 0.009822607142857145, Total Time: 1.6501980000000003, Max. Time: 0.011304

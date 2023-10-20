@@ -1,0 +1,32 @@
+Start Control Code Class 
+2023-09-20 09:57:44.104073 
+check 1 
+2023-09-20 09:57:44.104891 
+check 2 
+2023-09-20 09:57:44.105293 
+check 3 
+/projects/reorg1/SF_cosim_update/agents/Control/Input_Data/SF_model/system_data_sf.xlsx 
+2023-09-20 09:57:44.106559 
+check load system parameter function 
+2023-09-20 09:57:44.106746 
+cls1 
+2023-09-20 09:57:44.231740 
+cls2 
+2023-09-20 10:00:11.532041 
+cls3 
+2023-09-20 10:02:43.190436 
+check 4 
+2023-09-20 10:02:43.499275 
+check 5 
+2023-09-20 10:28:28.475858 
+Start Control Code main code 
+2023-09-20 10:28:29.963842 
+Check 1 
+Check 2 
+2023-09-20 10:30:17.981841 
+Check 3 
+2023-09-20 10:30:19.009610 
+Total island number: 9 
+2023-09-20 10:30:19.009878 
+Currently solving island: 0 
+2023-09-20 10:30:19.010058 
